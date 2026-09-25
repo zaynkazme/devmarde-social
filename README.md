@@ -4,7 +4,7 @@ Final, published-ready images for DevMarDe's social accounts. Buffer pulls
 each post's media from these files by URL, so **don't move or rename a file
 once its post is scheduled.**
 
-Layout: `YYYY-MM/DD/<platform>-<slide>.png`
+Layout: `YYYY-MM/DD/<platform>-<slide>.png`, plus `YYYY-MM/queue.json` — the schedule, captions and image URLs for each post.
 
 | Platform  | Account         | Size        |
 |-----------|-----------------|-------------|

@@ -1,0 +1,424 @@
+{
+  "_read_me": "Posting plan for October 2026. Batch 1 = Oct 1-10 (fills Buffer's free-plan cap of 10 per channel). Times are Asia/Karachi. Show every post to the user before queueing; they post publicly. Do NOT queue TikTok until the TikTok channel in Buffer is @devmarde (it was connected as 'digilexadverts').",
+  "posts": [
+    {
+      "date": "2026-10-01",
+      "title": "Every AI crawler, and what it's for",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-01T18:00:00+05:00",
+          "text": "10 AI crawlers, and what each is for. Block the wrong one and you vanish from the answer. Block none and you train the models for free. Save this before you touch your robots.txt again.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/01/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-01T18:00:00+05:00",
+          "text": "Your robots.txt is talking to AI crawlers you've never heard of.\n\nBlock the wrong one and you vanish from the answer. Block none and you train the models for free.\n\nThe 10 that matter, and what each one actually does:",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/01/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-01T19:00:00+05:00",
+          "text": "Ten AI robots decide whether ChatGPT can quote you. Here's every one.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/01/tiktok-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "title": "SEO didn't die. It got answered.",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-02T18:00:00+05:00",
+          "text": "Search still works perfectly. It just answers the question now instead of sending anyone to you.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/02/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-02T18:00:00+05:00",
+          "text": "SEO isn't dead. It's worse than that.\n\nSearch still works perfectly. It just answers the question itself now.\n\nThe click was the product. The click is gone.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/02/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-02T19:00:00+05:00",
+          "text": "Your SEO guy is ranking you number one on a page nobody will ever open.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/02/tiktok-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Drop your URL",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-03T18:00:00+05:00",
+          "text": "Drop your URL in the comments. I'll run it through RunAudit and reply with your score out of 100 and the one thing costing you the most. Free, no pitch, first thirty.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/03/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-03T18:00:00+05:00",
+          "text": "Reply with your URL.\n\nYou get a score out of 100 and the single biggest thing making you invisible to AI.\n\nFree. No pitch. I'll do as many as I can tonight.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/03/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-03T19:00:00+05:00",
+          "text": "Comment your website. I'll tell you your score.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/03/tiktok-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "title": "Why I built a free tool that tells people their site is broken",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-04T18:00:00+05:00",
+          "text": "People keep asking why I'd give the audit away. The honest answer: you can't argue with a number.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/04/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-04T18:00:00+05:00",
+          "text": "I built a free tool that scores how visible your site is to AI.\n\nPeople keep asking why I'd give it away.\n\nBecause the number does the selling. Nobody argues with 64/100.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/04/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-04T19:00:00+05:00",
+          "text": "I made a free tool that tells you your website is broken. Here's the selfish reason.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/04/tiktok-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "title": "The six files that make you quotable",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-05T18:00:00+05:00",
+          "text": "robots.txt. llms.txt. sitemap.xml. A JSON-LD entity graph. An FAQ block. feed.xml. Six files. That's the whole game.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-6.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-05T18:00:00+05:00",
+          "text": "Six files decide whether AI can quote you:\n\nrobots.txt\nllms.txt\nsitemap.xml\na JSON-LD entity graph\nan FAQ block\nfeed.xml\n\nHow many does yours have? Here's what each one does:",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-4.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-05T19:00:00+05:00",
+          "text": "Six files stand between you and being invisible to ChatGPT.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-6.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Your website is a brochure. AI can't quote a brochure.",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-06T18:00:00+05:00",
+          "text": "\"Award-winning team delivering world-class solutions\" is unquotable. \"Fixed price, ships in 14 days\" is a fact. AI cites facts.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/06/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-06T18:00:00+05:00",
+          "text": "AI can't quote a vibe.\n\n\"Award-winning team delivering world-class solutions\" — unquotable.\n\n\"Fixed price, ships in 14 days\" — quotable.\n\nGo read your homepage and count the actual facts on it.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/06/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-06T19:00:00+05:00",
+          "text": "Read your homepage out loud. Count the facts. I'll wait.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/06/tiktok-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Ten free fixes",
+      "batch": 1,
+      "note": "Replaces the Oct 7 teardown template, which needs a real audit first.",
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-07T18:00:00+05:00",
+          "text": "We're fixing ten websites for free. Score before, the six files, score after, Rs 0. The only catch is we publish the numbers. Drop your URL. First ten.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-4.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-07T18:00:00+05:00",
+          "text": "We'll fix ten websites for free.\n\nBefore score. The fix. After score. Rs 0.\n\nOnly catch: we publish the numbers. No upsell, no retainer. We'll ask for a review after and you can say no.\n\nReply with your URL. First ten.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-4.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-07T19:00:00+05:00",
+          "text": "We're fixing ten websites for free. Yes, actually free.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Inventorini",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-08T18:00:00+05:00",
+          "text": "You buy in cartons. You sell in pieces. Inventorini counts both at the same time, and every bill tells you what it made.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-4.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-08T18:00:00+05:00",
+          "text": "Inventorini.\n\nYou buy in cartons. You sell in pieces. It counts both at once: open a carton and the pieces appear.\n\nProfit on every bill. A warning before you sell below cost. No ads, on any plan.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-4.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-08T19:00:00+05:00",
+          "text": "You buy in cartons. You sell in pieces. Your stock app should know that.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "title": "The schema types that actually get you cited",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-09T18:00:00+05:00",
+          "text": "There are 800+ schema types. Eight of them matter. Save this one.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-6.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-09T18:00:00+05:00",
+          "text": "Schema.org has 800+ types.\n\nEight of them decide whether AI can cite you. The other 792 are noise.\n\nHere's the eight, and what each one is actually for:",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-4.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-09T19:00:00+05:00",
+          "text": "Eight hundred schema types exist. You need eight.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-6.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Drop your URL",
+      "batch": 1,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-10T18:00:00+05:00",
+          "text": "Round two. Drop your URL and I'll reply with your score out of 100 and the one thing costing you most.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/10/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-10T18:00:00+05:00",
+          "text": "Round two.\n\nReply with your URL, get your score out of 100 and the one thing costing you most.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/10/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-10T19:00:00+05:00",
+          "text": "Comment your website. Round two. I'll tell you your score.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/10/tiktok-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Crawled, not quoted",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-11T18:00:00+05:00",
+          "text": "Your competitor isn't outranking you. They're being quoted while you're being crawled.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/11/instagram-1.png"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-11T18:00:00+05:00",
+          "text": "Your competitor isn't outranking you.\n\nThey're being quoted while you're being crawled.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/11/x-1.png"
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-11T19:00:00+05:00",
+          "text": "You're being crawled. They're being quoted. Not the same thing.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/11/tiktok-1.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
