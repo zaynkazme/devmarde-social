@@ -1,5 +1,5 @@
 {
-  "_read_me": "Posting plan for October 2026. Batch 1 = Oct 1-10 (fills Buffer's free-plan cap of 10 per channel). Times are Asia/Karachi. Show every post to the user before queueing; they post publicly. Do NOT queue TikTok until the TikTok channel in Buffer is @devmarde (it was connected as 'digilexadverts').",
+  "_read_me": "Posting plan for October 2026. Batch 1 = Oct 1-10 (fills Buffer's free-plan cap of 10 per channel). Times are Asia/Karachi. Show every post to the user before queueing; they post publicly. Every post has an alt array matching its images one-to-one (short alt for Instagram/TikTok, full alt for X): attach each as that image's alt text. Do NOT queue TikTok until the TikTok channel in Buffer is @devmarde (it was connected as 'digilexadverts').",
   "posts": [
     {
       "date": "2026-10-01",
@@ -13,6 +13,9 @@
           "text": "10 AI crawlers, and what each is for. Block the wrong one and you vanish from the answer. Block none and you train the models for free. Save this before you touch your robots.txt again.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/01/instagram-1.png"
+          ],
+          "alt": [
+            "Infographic: 10 AI crawlers, what each one does, and the 3 search bots you should never block."
           ]
         },
         {
@@ -22,6 +25,9 @@
           "text": "Your robots.txt is talking to AI crawlers you've never heard of.\n\nBlock the wrong one and you vanish from the answer. Block none and you train the models for free.\n\nThe 10 that matter, and what each one actually does:",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/01/x-1.png"
+          ],
+          "alt": [
+            "Reference table titled '10 AI crawlers, and what each is for', 10 of the 19 we allow. OpenAI: GPTBot trains the model (yes), OAI-SearchBot builds the search index (always), ChatGPT-User fetches live mid-answer (yes). Anthropic: ClaudeBot trains the model (yes), Claude-SearchBot indexes for citation (always), Claude-User fetches on request (yes). Google-Extended: Gemini training, not Search (yes). PerplexityBot indexes for citation (always). Applebot-Extended: Apple Intelligence (yes). CCBot: feeds almost everyone (yes). Never block OAI-SearchBot, Claude-SearchBot or PerplexityBot. One robots.txt rule is enough to vanish from one assistant. Most AI crawlers never run JavaScript, so ship real HTML."
           ]
         },
         {
@@ -31,6 +37,9 @@
           "text": "Ten AI robots decide whether ChatGPT can quote you. Here's every one.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/01/tiktok-1.png"
+          ],
+          "alt": [
+            "Infographic: 10 AI crawlers, what each one does, and the 3 search bots you should never block."
           ]
         }
       ]
@@ -47,6 +56,9 @@
           "text": "Search still works perfectly. It just answers the question now instead of sending anyone to you.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/02/instagram-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'SEO didn't die. It got answered.' The click was the product. The click is gone."
           ]
         },
         {
@@ -56,6 +68,9 @@
           "text": "SEO isn't dead. It's worse than that.\n\nSearch still works perfectly. It just answers the question itself now.\n\nThe click was the product. The click is gone.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/02/x-1.png"
+          ],
+          "alt": [
+            "Pink poster headline: 'SEO didn't die. It got answered.' Underneath: 'The click was the product. The click is gone.'"
           ]
         },
         {
@@ -65,6 +80,9 @@
           "text": "Your SEO guy is ranking you number one on a page nobody will ever open.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/02/tiktok-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'SEO didn't die. It got answered.' The click was the product. The click is gone."
           ]
         }
       ]
@@ -81,6 +99,9 @@
           "text": "Drop your URL in the comments. I'll run it through RunAudit and reply with your score out of 100 and the one thing costing you the most. Free, no pitch, first thirty.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/03/instagram-1.png"
+          ],
+          "alt": [
+            "Green poster: 'Drop your URL. I'll score it.' A score out of 100 and the one thing costing you most."
           ]
         },
         {
@@ -90,6 +111,9 @@
           "text": "Reply with your URL.\n\nYou get a score out of 100 and the single biggest thing making you invisible to AI.\n\nFree. No pitch. I'll do as many as I can tonight.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/03/x-1.png"
+          ],
+          "alt": [
+            "Green poster, every Saturday: 'Drop your URL. I'll score it.' What comes back: a score out of 100, the one thing costing you most, and what to do about it in one line. Comment with a link. No DM, no email, no funnel."
           ]
         },
         {
@@ -99,6 +123,9 @@
           "text": "Comment your website. I'll tell you your score.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/03/tiktok-1.png"
+          ],
+          "alt": [
+            "Green poster: 'Drop your URL. I'll score it.' A score out of 100 and the one thing costing you most."
           ]
         }
       ]
@@ -115,6 +142,9 @@
           "text": "People keep asking why I'd give the audit away. The honest answer: you can't argue with a number.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/04/instagram-1.png"
+          ],
+          "alt": [
+            "Black poster: 'Nobody argues with 64 out of 100.' The number does the selling."
           ]
         },
         {
@@ -124,6 +154,9 @@
           "text": "I built a free tool that scores how visible your site is to AI.\n\nPeople keep asking why I'd give it away.\n\nBecause the number does the selling. Nobody argues with 64/100.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/04/x-1.png"
+          ],
+          "alt": [
+            "Black poster with green type: 'Nobody argues with 64 out of 100.' Label: runaudit.devmarde.com. Underneath: 'I gave the audit away. The number does the selling.'"
           ]
         },
         {
@@ -133,6 +166,9 @@
           "text": "I made a free tool that tells you your website is broken. Here's the selfish reason.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/04/tiktok-1.png"
+          ],
+          "alt": [
+            "Black poster: 'Nobody argues with 64 out of 100.' The number does the selling."
           ]
         }
       ]
@@ -154,6 +190,14 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-4.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-5.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/instagram-6.png"
+          ],
+          "alt": [
+            "Green poster: 'Six files decide if AI can quote you.' How many does yours have?",
+            "robots.txt decides who gets in. Never block OAI-SearchBot, Claude-SearchBot or PerplexityBot.",
+            "llms.txt, the brief you write for machines: who you are, what you sell, what you stand behind.",
+            "sitemap.xml lists every page with real dates. JSON-LD says who you are and needs a developer.",
+            "An FAQ block in real HTML gets quoted. feed.xml proves the site is still being run.",
+            "Green poster: 'Count yours. You need six.' Free check at runaudit.devmarde.com."
           ]
         },
         {
@@ -166,6 +210,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/x-4.png"
+          ],
+          "alt": [
+            "Green poster headline: 'Six files decide if AI can quote you.' Underneath: 'How many does yours have?' Swipe for all six.",
+            "File 01, robots.txt, the front door: 'It decides who gets in.' A plain text file at your root; well-behaved crawlers read it before anything else. The three you never block: OAI-SearchBot, Claude-SearchBot and PerplexityBot.",
+            "Files 03 and 04: 'One says what's here. One says who.' sitemap.xml: every page, with real dates; a date that never moves tells a crawler nothing has changed. JSON-LD: the entity graph, the lines that say who you are, and the only one of the six that needs a developer.",
+            "Green poster headline: 'Count yours. You need six.' Free, no email, no DM funnel. Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it. @hey.devmarde."
           ]
         },
         {
@@ -180,6 +230,14 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-4.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-5.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/05/tiktok-6.png"
+          ],
+          "alt": [
+            "Green poster: 'Six files decide if AI can quote you.' How many does yours have?",
+            "robots.txt decides who gets in. Never block OAI-SearchBot, Claude-SearchBot or PerplexityBot.",
+            "llms.txt, the brief you write for machines: who you are, what you sell, what you stand behind.",
+            "sitemap.xml lists every page with real dates. JSON-LD says who you are and needs a developer.",
+            "An FAQ block in real HTML gets quoted. feed.xml proves the site is still being run.",
+            "Green poster: 'Count yours. You need six.' Free check at runaudit.devmarde.com."
           ]
         }
       ]
@@ -196,6 +254,9 @@
           "text": "\"Award-winning team delivering world-class solutions\" is unquotable. \"Fixed price, ships in 14 days\" is a fact. AI cites facts.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/06/instagram-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'AI can't quote a vibe.' 'Award-winning' is unquotable; 'Ships in 14 days' is not."
           ]
         },
         {
@@ -205,6 +266,9 @@
           "text": "AI can't quote a vibe.\n\n\"Award-winning team delivering world-class solutions\" — unquotable.\n\n\"Fixed price, ships in 14 days\" — quotable.\n\nGo read your homepage and count the actual facts on it.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/06/x-1.png"
+          ],
+          "alt": [
+            "Pink poster headline: 'AI can't quote a vibe.' Which one can it repeat? 'Award-winning. World-class.' is marked unquotable. 'Fixed price. Ships in 14 days.' is marked quotable."
           ]
         },
         {
@@ -214,6 +278,9 @@
           "text": "Read your homepage out loud. Count the facts. I'll wait.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/06/tiktok-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'AI can't quote a vibe.' 'Award-winning' is unquotable; 'Ships in 14 days' is not."
           ]
         }
       ]
@@ -234,6 +301,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/instagram-4.png"
+          ],
+          "alt": [
+            "Green poster: 'We'll fix your site for free.' Ten spots. No catch, not even a review.",
+            "What you get: your score before, the six files installed, your score after. Rs 0.",
+            "The only catch: we publish the before and after. A review is asked after, and you can say no.",
+            "Green poster: 'Drop your URL. First ten.' runaudit.devmarde.com, by Ali Mehdi."
           ]
         },
         {
@@ -246,6 +319,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/x-4.png"
+          ],
+          "alt": [
+            "Green poster headline: 'We'll fix your site for free.' Sticker: 'Free. Ten of you.' Underneath: 'No catch. Not even a review.'",
+            "What you get: 'Before. The fix. After.' Your score before, out of 100, on the same rubric we use for everyone. The six files written and installed: robots.txt, llms.txt, sitemap, JSON-LD, an FAQ in real HTML, feed.xml. Your score after. Rs 0: four hours of our work, nothing to pay now or later.",
+            "The only catch: 'We publish the numbers.' Before and after on our page, named or anonymised, your call in writing before we start. We'll ask for an honest review on Google afterwards; you can say no and it stays free either way. No upsell, no retainer, no email list.",
+            "Green poster headline: 'Drop your URL. First ten.' Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it. @hey.devmarde."
           ]
         },
         {
@@ -258,6 +337,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/07/tiktok-4.png"
+          ],
+          "alt": [
+            "Green poster: 'We'll fix your site for free.' Ten spots. No catch, not even a review.",
+            "What you get: your score before, the six files installed, your score after. Rs 0.",
+            "The only catch: we publish the before and after. A review is asked after, and you can say no.",
+            "Green poster: 'Drop your URL. First ten.' runaudit.devmarde.com, by Ali Mehdi."
           ]
         }
       ]
@@ -277,6 +362,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/instagram-4.png"
+          ],
+          "alt": [
+            "Poster: 'You buy in cartons. You sell in pieces.' Inventorini counts both at the same time.",
+            "Inventorini turns a carton into loose pieces in one action, and bills from either unit.",
+            "Inventorini: profit on every bill, a below-cost warning, and a free WhatsApp storefront.",
+            "Poster: 'No ads. On any plan. On purpose.' Inventorini, Rs 1,490 a shop a month."
           ]
         },
         {
@@ -289,6 +380,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/x-4.png"
+          ],
+          "alt": [
+            "Black poster with blue type, labelled 'We built this': 'You buy in cartons. You sell in pieces.' For shops, godowns and distributors: Inventorini counts both, at the same time.",
+            "Open a carton: 'One action turns a carton into loose pieces.' The pieces enter loose stock and the carton count drops by one; another action packs pieces back into a carton. Bill from either unit: sell a whole carton or single pieces, and the count stays right in both, so nothing is double-sold. Rename the units to whatever your shop calls them: peti and dana, bori, dozen.",
+            "At the counter: 'Every bill says what it made.' Profit on every bill, against what that stock cost you, shown as you write it. A warning when a line is priced below cost, while the customer is still at the counter; it warns, it does not block. A storefront at no extra cost: customers build a cart at your shop's own link and the whole order lands in your WhatsApp, priced and totalled. No commission.",
+            "Black poster with blue type: 'No ads. On any plan. On purpose.' Inventorini: Rs 1,490 a shop, a month. Free for 30 days or 200 entries, whichever comes first. Link: devmarde.com/software/inventorini."
           ]
         },
         {
@@ -301,6 +398,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/08/tiktok-4.png"
+          ],
+          "alt": [
+            "Poster: 'You buy in cartons. You sell in pieces.' Inventorini counts both at the same time.",
+            "Inventorini turns a carton into loose pieces in one action, and bills from either unit.",
+            "Inventorini: profit on every bill, a below-cost warning, and a free WhatsApp storefront.",
+            "Poster: 'No ads. On any plan. On purpose.' Inventorini, Rs 1,490 a shop a month."
           ]
         }
       ]
@@ -322,6 +425,14 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-4.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-5.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/instagram-6.png"
+          ],
+          "alt": [
+            "Blue poster: '800 schema types. Eight matter.' The eight an AI reads to decide who you are.",
+            "Organization and Person: the two schema types that say you exist.",
+            "Article and FAQPage: the two schema types that make you quotable.",
+            "BreadcrumbList and WebPage: the two schema types that give a page an address.",
+            "Product if it has a price, LocalBusiness if it has an address: the last two schema types.",
+            "Blue poster: 'The other 792 are noise.' Start with Organization and FAQPage."
           ]
         },
         {
@@ -334,6 +445,12 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-2.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-3.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/x-4.png"
+          ],
+          "alt": [
+            "Blue poster headline: '800 schema types. Eight matter.' Underneath: 'The eight types an AI reads before it decides who you are.' Save this one.",
+            "Who you are: 'Two types say you exist.' 01 Organization, one per site: the entity every other type points back to; your name, your logo, one place a machine can read. 02 Person, named humans: sameAs links out, so the name resolves to someone real.",
+            "Where things sit: 'Give the page an address.' 05 BreadcrumbList, the path in: where the page sits among the rest, and the route a crawler takes to reach it. 06 WebPage, one per page: what the page is, under an @id that stays put while the page keeps changing.",
+            "Blue poster headline: 'The other 792 are noise.' Start with Organization and FAQPage; the rest can wait a week. Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it."
           ]
         },
         {
@@ -348,6 +465,14 @@
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-4.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-5.png",
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/09/tiktok-6.png"
+          ],
+          "alt": [
+            "Blue poster: '800 schema types. Eight matter.' The eight an AI reads to decide who you are.",
+            "Organization and Person: the two schema types that say you exist.",
+            "Article and FAQPage: the two schema types that make you quotable.",
+            "BreadcrumbList and WebPage: the two schema types that give a page an address.",
+            "Product if it has a price, LocalBusiness if it has an address: the last two schema types.",
+            "Blue poster: 'The other 792 are noise.' Start with Organization and FAQPage."
           ]
         }
       ]
@@ -364,6 +489,9 @@
           "text": "Round two. Drop your URL and I'll reply with your score out of 100 and the one thing costing you most.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/10/instagram-1.png"
+          ],
+          "alt": [
+            "Green poster: 'Drop your URL. I'll score it.' A score out of 100 and the one thing costing you most."
           ]
         },
         {
@@ -373,6 +501,9 @@
           "text": "Round two.\n\nReply with your URL, get your score out of 100 and the one thing costing you most.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/10/x-1.png"
+          ],
+          "alt": [
+            "Green poster, every Saturday: 'Drop your URL. I'll score it.' What comes back: a score out of 100, the one thing costing you most, and what to do about it in one line. Comment with a link. No DM, no email, no funnel."
           ]
         },
         {
@@ -382,6 +513,9 @@
           "text": "Comment your website. Round two. I'll tell you your score.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/10/tiktok-1.png"
+          ],
+          "alt": [
+            "Green poster: 'Drop your URL. I'll score it.' A score out of 100 and the one thing costing you most."
           ]
         }
       ]
@@ -398,6 +532,9 @@
           "text": "Your competitor isn't outranking you. They're being quoted while you're being crawled.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/11/instagram-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'They get quoted. You get crawled.' Your competitor isn't outranking you."
           ]
         },
         {
@@ -407,6 +544,9 @@
           "text": "Your competitor isn't outranking you.\n\nThey're being quoted while you're being crawled.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/11/x-1.png"
+          ],
+          "alt": [
+            "Pink poster headline: 'They get quoted. You get crawled.' Underneath: 'Your competitor isn't outranking you.'"
           ]
         },
         {
@@ -416,6 +556,9 @@
           "text": "You're being crawled. They're being quoted. Not the same thing.",
           "images": [
             "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/11/tiktok-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'They get quoted. You get crawled.' Your competitor isn't outranking you."
           ]
         }
       ]
