@@ -1,5 +1,5 @@
 {
-  "_read_me": "Posting plan for October 2026. Batch 1 = Oct 1-10 (fills Buffer's free-plan cap of 10 per channel). Times are Asia/Karachi. Show every post to the user before queueing; they post publicly. Every post has an alt array matching its images one-to-one (short alt for Instagram/TikTok, full alt for X): attach each as that image's alt text. Do NOT queue TikTok until the TikTok channel in Buffer is @devmarde (it was connected as 'digilexadverts').",
+  "_read_me": "Posting plan for October 2026. Batch 1 = Oct 1-10, batch 2 = Oct 11-20. Buffer's free plan holds 10 queued posts per channel, so batch 2 can only go in as batch-1 posts publish and free their slots. Times are Asia/Karachi. Show every post to the user before queueing; they post publicly. Every post has an alt array matching its images one-to-one (short alt for Instagram/TikTok, full alt for X): attach each as that image's alt text. Do NOT queue TikTok until the TikTok channel in Buffer is @devmarde (it was connected as 'digilexadverts').",
   "posts": [
     {
       "date": "2026-10-01",
@@ -559,6 +559,516 @@
           ],
           "alt": [
             "Pink poster: 'They get quoted. You get crawled.' Your competitor isn't outranking you."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Sixty to a hundred in one afternoon",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-12T18:00:00+05:00",
+          "text": "The actual running order, with time estimates. Four hours if you've never done it before.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/instagram-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/instagram-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/instagram-6.png"
+          ],
+          "alt": [
+            "Green poster: 'Sixty to a hundred. One afternoon.' Six steps in order, four hours the first time.",
+            "Step 1, 10 minutes: robots.txt. Unblock OAI-SearchBot, Claude-SearchBot and PerplexityBot.",
+            "Step 2, 40 minutes: llms.txt, four paragraphs written by hand about who you are and what you sell.",
+            "Step 3, 90 minutes: the JSON-LD entity graph. The only step that needs a developer.",
+            "Steps 4 to 6, 100 minutes: FAQ in real HTML, real sitemap dates and a feed, then score it again.",
+            "Green poster: 'Done by four. Re-run it.' No redesign, no new copy. runaudit.devmarde.com"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-12T18:00:00+05:00",
+          "text": "How to take a site from 60 to 100 on AI visibility in one afternoon.\n\nThe real running order, with time estimates.\n\nNothing here needs a developer except step three:",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/x-4.png"
+          ],
+          "alt": [
+            "Green poster headline: 'Sixty to a hundred. One afternoon.' Six steps, in order, with the clock running. Four hours if you've never done it.",
+            "Step 01, 0:00 to 0:10, 10 minutes: robots.txt. 'Unblock the three that can quote you': OAI-SearchBot, Claude-SearchBot and PerplexityBot. Block one and it cannot read a word of you. The best ten minutes on the list: every later step is work a blocked crawler would never see. Go and read yoursite.com/robots.txt.",
+            "Step 03, 0:50 to 2:20, 90 minutes: JSON-LD, 'The graph that says who you are.' Organization, Person and WebPage, one stable @id each, linked so you read as a single entity instead of unrelated pages. Needs a developer: the only step that does, because someone has to edit your templates. The longest step of the afternoon.",
+            "Green poster headline: 'Done by four. Re-run it.' No redesign, no new copy: six files and one afternoon. Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-12T19:00:00+05:00",
+          "text": "Four hours. Sixty to a hundred. Here's the order.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/tiktok-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/tiktok-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/12/tiktok-6.png"
+          ],
+          "alt": [
+            "Green poster: 'Sixty to a hundred. One afternoon.' Six steps in order, four hours the first time.",
+            "Step 1, 10 minutes: robots.txt. Unblock OAI-SearchBot, Claude-SearchBot and PerplexityBot.",
+            "Step 2, 40 minutes: llms.txt, four paragraphs written by hand about who you are and what you sell.",
+            "Step 3, 90 minutes: the JSON-LD entity graph. The only step that needs a developer.",
+            "Steps 4 to 6, 100 minutes: FAQ in real HTML, real sitemap dates and a feed, then score it again.",
+            "Green poster: 'Done by four. Re-run it.' No redesign, no new copy. runaudit.devmarde.com"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "title": "There is no page two anymore",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-13T18:00:00+05:00",
+          "text": "Nobody types your business name into Google anymore. They ask who's good at this, and get three names back.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/13/instagram-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'No page two. Three names.' Ask an AI who does what you do; it gives three names."
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-13T18:00:00+05:00",
+          "text": "Nobody types your business name into Google anymore.\n\nThey ask \"who's good at X near me\" and get three names back.\n\nThere is no page two. There are three names.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/13/x-1.png"
+          ],
+          "alt": [
+            "Pink poster headline: 'No page two. Three names.' The new first page: ask an AI who does what you do. It gives three names, then stops."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-13T19:00:00+05:00",
+          "text": "There's no page two anymore. There's three names.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/13/tiktok-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'No page two. Three names.' Ask an AI who does what you do; it gives three names."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Accessibility bugs that are also ranking bugs",
+      "batch": 2,
+      "note": "The accessibility carousel, moved up from Oct 23. The Oct 14 teardown is a template waiting for real audit data; Oct 23 becomes the teardown date.",
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-14T18:00:00+05:00",
+          "text": "Three bugs that fail an accessibility audit and lose you customers at the same time. All three were on our own site last month.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/instagram-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/instagram-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/instagram-6.png"
+          ],
+          "alt": [
+            "Blue poster: 'Three bugs that fail your site twice.' They fail an audit and a real person.",
+            "Bug 1: aria-hidden on a container that still holds a link or button. Keyboards land on it silently.",
+            "Bug 2: aria-label on a bare span with no role. The label is dropped. Fix: give it a role.",
+            "Bug 3: grey text at 3.6:1 contrast. The floor is 4.5:1 for normal-size text.",
+            "All three bugs were on devmarde.com, found with Lighthouse. Fixed in one sitting: 90 to 100.",
+            "Blue poster: 'Go and check your own.' Free accessibility check at pagespeed.web.dev."
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-14T18:00:00+05:00",
+          "text": "Three accessibility bugs that are also SEO bugs:\n\n— aria-hidden on a container with focusable children\n— aria-label on a bare span\n— grey text at 3.6:1\n\nAll three were on my own site last month. 90 → 100.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/x-4.png"
+          ],
+          "alt": [
+            "Blue poster headline: 'Three bugs that fail your site twice.' Sticker: 'I had all three.' Each one fails an automated score and a real person; the same fix works for both.",
+            "Bug 01, aria-hidden on a focusable parent: 'Hidden from one user. Handed to the next.' The bug: aria-hidden on a container that still holds a link or a button. Why it fails twice: the audit flags it and the person hits it; Tab lands on a control the screen reader was told does not exist, and nothing is announced.",
+            "Bug 03, grey text contrast: 3.6:1, circled, against a floor of 4.5:1 for normal-size text. The bug: muted grey text in dark mode. Why it fails twice: it scores badly and reads badly; it looks refined in the design file and disappears on a phone outdoors. One darker grey fixes both.",
+            "Blue poster headline: 'Go and check your own.' Link: pagespeed.web.dev. Ali Mehdi, builds it, then markets it."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-14T19:00:00+05:00",
+          "text": "Three bugs that fail your website twice. I had all three.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/tiktok-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/tiktok-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/14/tiktok-6.png"
+          ],
+          "alt": [
+            "Blue poster: 'Three bugs that fail your site twice.' They fail an audit and a real person.",
+            "Bug 1: aria-hidden on a container that still holds a link or button. Keyboards land on it silently.",
+            "Bug 2: aria-label on a bare span with no role. The label is dropped. Fix: give it a role.",
+            "Bug 3: grey text at 3.6:1 contrast. The floor is 4.5:1 for normal-size text.",
+            "All three bugs were on devmarde.com, found with Lighthouse. Fixed in one sitting: 90 to 100.",
+            "Blue poster: 'Go and check your own.' Free accessibility check at pagespeed.web.dev."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "WattWise: one purchase, three prices",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-15T18:00:00+05:00",
+          "text": "WattWise is free with ads. Removing them will be one payment: $4.99, $1.99 or $0.99, depending on where you live. It's switching on through Google Play now.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/instagram-4.png"
+          ],
+          "alt": [
+            "Black poster: 'One purchase. Three prices. On purpose.' WattWise ad removal is priced by region.",
+            "WattWise is free with ads, nothing held back: 98 presets, 47 countries, solar sizing, PDF report.",
+            "Removing WattWise ads costs $4.99, $1.99 or $0.99 depending on region. One payment.",
+            "Black poster: 'The payment only buys quiet.' Everything else in WattWise is already free."
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-15T18:00:00+05:00",
+          "text": "WattWise is free with ads.\n\nRemoving them will be one payment, priced by region:\n$4.99 in higher-income markets\n$1.99 in the middle tier\n$0.99 everywhere else\n\nIt's switching on through Google Play now. Every preset, country and report is already in the free app. The payment only buys quiet.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/x-4.png"
+          ],
+          "alt": [
+            "Black poster with amber type: 'One purchase. Three prices. On purpose.' WattWise, Android. Free with ads; removing them is priced for where you live.",
+            "The model: 'Free, with ads. Nothing held back.' Everything is in the free app: all 98 appliance presets, rates for 47 countries, solar sizing with sun hours for 38 countries, and the PDF report made on the phone. The ads are capped: one banner and at most one full-screen ad every eight minutes, both behind a consent prompt. No account, no server; everything stays on the phone.",
+            "Priced by region via Google Play: 'What removing the ads costs.' $4.99 in higher-income markets such as the US, UK, Canada, Australia and Germany. $1.99 in the middle tier such as Brazil, Mexico, Turkiye and South Africa. $0.99 everywhere else, including Pakistan, India, Bangladesh, Nigeria and Egypt. One payment, not a subscription; the ads go for good.",
+            "Black poster with amber type: 'The payment only buys quiet.' Every preset, country and report is already free. The ad-free purchase is being switched on through Google Play. Link: devmarde.com/software/wattwise."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-15T19:00:00+05:00",
+          "text": "Same app. Same button. Three different prices. Here's why.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/15/tiktok-4.png"
+          ],
+          "alt": [
+            "Black poster: 'One purchase. Three prices. On purpose.' WattWise ad removal is priced by region.",
+            "WattWise is free with ads, nothing held back: 98 presets, 47 countries, solar sizing, PDF report.",
+            "Removing WattWise ads costs $4.99, $1.99 or $0.99 depending on region. One payment.",
+            "Black poster: 'The payment only buys quiet.' Everything else in WattWise is already free."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Core Web Vitals, decoded",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-16T18:00:00+05:00",
+          "text": "LCP, INP, CLS. What each one actually measures, and what a bad score costs you.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/instagram-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/instagram-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/instagram-6.png"
+          ],
+          "alt": [
+            "Blue poster: 'Google grades you on three letters.' LCP, INP and CLS, explained.",
+            "LCP, good under 2.5 seconds: how long until the biggest thing appears. Fix the hero image.",
+            "INP, good under 200ms: how long until a tap does something. Ship less JavaScript.",
+            "CLS, good under 0.1: how much the page jumps while you read. Reserve the space first.",
+            "All three are measured from real visits on real phones. Buyers feel them and leave.",
+            "Blue poster: 'Check yours. It takes thirty seconds.' Free at pagespeed.web.dev."
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-16T18:00:00+05:00",
+          "text": "Core Web Vitals in plain English:\n\nLCP — how long until the big thing appears\nINP — how long until a tap does something\nCLS — how much the page jumps while you read\n\nWhat each one costs you:",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/x-4.png"
+          ],
+          "alt": [
+            "Blue poster headline: 'Google grades you on three letters.' LCP, INP, CLS: what each one means, what breaks it, and what counts as good.",
+            "LCP, Largest Contentful Paint, good under 2.5 seconds: how long until the biggest thing appears. What breaks it: an unoptimised hero image, shipped at full size and loaded last. The fix: compress it, size it, load it first.",
+            "CLS, Cumulative Layout Shift, good under 0.1: how much the page jumps while you read. What breaks it: a web font swapping in late, or an image with no width and height. The fix: reserve the space before it arrives.",
+            "Blue poster headline: 'Check yours. It takes thirty seconds.' Link: pagespeed.web.dev. Ali Mehdi, builds it, then markets it."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-16T19:00:00+05:00",
+          "text": "Three letters decide whether Google likes your website.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/tiktok-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/tiktok-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/16/tiktok-6.png"
+          ],
+          "alt": [
+            "Blue poster: 'Google grades you on three letters.' LCP, INP and CLS, explained.",
+            "LCP, good under 2.5 seconds: how long until the biggest thing appears. Fix the hero image.",
+            "INP, good under 200ms: how long until a tap does something. Ship less JavaScript.",
+            "CLS, good under 0.1: how much the page jumps while you read. Reserve the space first.",
+            "All three are measured from real visits on real phones. Buyers feel them and leave.",
+            "Blue poster: 'Check yours. It takes thirty seconds.' Free at pagespeed.web.dev."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Drop your URL",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-17T18:00:00+05:00",
+          "text": "Round three. Drop your URL and I'll reply with your score out of 100 and the one thing costing you most.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/17/instagram-1.png"
+          ],
+          "alt": [
+            "Green poster: 'Drop your URL. I'll score it.' A score out of 100 and the one thing costing you most."
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-17T18:00:00+05:00",
+          "text": "Round three.\n\nReply with your URL. You get a score out of 100 and the one thing costing you most.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/17/x-1.png"
+          ],
+          "alt": [
+            "Green poster, every Saturday: 'Drop your URL. I'll score it.' What comes back: a score out of 100, the one thing costing you most, and what to do about it in one line. Comment with a link. No DM, no email, no funnel."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-17T19:00:00+05:00",
+          "text": "Round three. Comment your website and I'll tell you your score.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/17/tiktok-1.png"
+          ],
+          "alt": [
+            "Green poster: 'Drop your URL. I'll score it.' A score out of 100 and the one thing costing you most."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "title": "A font cost me five Lighthouse points",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-18T18:00:00+05:00",
+          "text": "Added Poppins to a site. Performance went 100 to 95. The font was swapping and shoving the layout. The fix was four lines of CSS.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/18/instagram-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'One font took me from 100 to 95.' Four lines of CSS fixed the layout shift."
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-18T18:00:00+05:00",
+          "text": "Added Poppins to a site. Lighthouse perf went 100 → 95. CLS 0 → 0.089.\n\nThe font was swapping and shoving the layout down.\n\nFix was a metric-overridden fallback face:\nascent-override: 92%\ndescent-override: 31%\nline-gap-override: 0%\nsize-adjust: 112%\n\nBack to 100.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/18/x-1.png"
+          ],
+          "alt": [
+            "Pink poster headline: 'One font took me from 100 to 95.' Lighthouse. Poppins swapped in late and shoved the layout. Four lines of CSS fixed it."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-18T19:00:00+05:00",
+          "text": "One font took my site from a hundred to ninety-five. Four lines fixed it.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/18/tiktok-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'One font took me from 100 to 95.' Four lines of CSS fixed the layout shift."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "title": "The three-agency problem",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-19T18:00:00+05:00",
+          "text": "Your dev agency ships a fast site with no schema. Your SEO agency adds schema to a slow site. Your designer makes it beautiful and breaks both.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/instagram-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/instagram-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/instagram-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/instagram-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/instagram-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/instagram-6.png"
+          ],
+          "alt": [
+            "Green poster: 'Three agencies. One broken site.' Everybody optimises their own third.",
+            "Agency one, the dev shop: a fast site with not one line of schema.",
+            "Agency two, the SEO retainer: perfect schema on a page that takes four seconds to load.",
+            "Agency three, the redesign: beautiful, but slower, and half the schema went with it.",
+            "Each agency hit its number. Nobody owns whether an AI can answer a question about you.",
+            "Green poster: 'One team, all three. That's the whole pitch.' runaudit.devmarde.com"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-19T18:00:00+05:00",
+          "text": "The three-agency problem.\n\nDev ships fast, no schema.\nSEO adds schema, site's still slow.\nDesigner makes it beautiful, breaks both.\n\nNobody's wrong. Everybody's optimising their own third.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/x-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/x-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/x-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/x-4.png"
+          ],
+          "alt": [
+            "Green poster headline: 'Three agencies. One broken site.' Three invoices. Nobody is wrong; everybody optimises their own third.",
+            "Agency one, the dev shop: 'A fast site that says nothing.' Under a second to paint, with clean HTML and a real build step; they did exactly the job you hired them for. But not one line of schema: nothing says who you are, what you sell or who stands behind it. Speed was the brief, and speed was delivered.",
+            "Agency three, the redesign: 'Beautiful. And it broke the other two.' It finally looks like you. But it is slower, with new fonts, bigger images and nobody re-running the test, and half the markup went with it when the templates changed. Three briefs, three wins, one site.",
+            "Green poster headline: 'One team, all three. That's the whole pitch.' Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-19T19:00:00+05:00",
+          "text": "Three agencies. Three invoices. One broken website.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/tiktok-1.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/tiktok-2.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/tiktok-3.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/tiktok-4.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/tiktok-5.png",
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/19/tiktok-6.png"
+          ],
+          "alt": [
+            "Green poster: 'Three agencies. One broken site.' Everybody optimises their own third.",
+            "Agency one, the dev shop: a fast site with not one line of schema.",
+            "Agency two, the SEO retainer: perfect schema on a page that takes four seconds to load.",
+            "Agency three, the redesign: beautiful, but slower, and half the schema went with it.",
+            "Each agency hit its number. Nobody owns whether an AI can answer a question about you.",
+            "Green poster: 'One team, all three. That's the whole pitch.' runaudit.devmarde.com"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "title": "A robots.txt file and a prayer",
+      "batch": 2,
+      "posts": [
+        {
+          "channel": "instagram",
+          "account": "@hey.devmarde",
+          "time": "2026-10-20T18:00:00+05:00",
+          "text": "Most \"SEO packages\" are a robots.txt file and a prayer. Ask yours which of the six files they've written.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/20/instagram-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'Ask your SEO agency one question.' Which of the six files have you written for me?"
+          ]
+        },
+        {
+          "channel": "x",
+          "account": "@devmarde",
+          "time": "2026-10-20T18:00:00+05:00",
+          "text": "Most \"SEO packages\" are a robots.txt file and a prayer.\n\nAsk yours which of the six files they've actually written for you. Ask for the date they last touched your schema.\n\nThe answer is usually a report.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/20/x-1.png"
+          ],
+          "alt": [
+            "Pink poster headline: 'Ask your SEO agency one question.' Word for word: 'Which of the six files have you written for me?' The answer is usually a report."
+          ]
+        },
+        {
+          "channel": "tiktok",
+          "account": "@devmarde",
+          "time": "2026-10-20T19:00:00+05:00",
+          "text": "Ask your SEO agency one question. Watch what happens.",
+          "images": [
+            "https://raw.githubusercontent.com/zaynkazme/devmarde-social/main/2026-10/20/tiktok-1.png"
+          ],
+          "alt": [
+            "Pink poster: 'Ask your SEO agency one question.' Which of the six files have you written for me?"
           ]
         }
       ]
