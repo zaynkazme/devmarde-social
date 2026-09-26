@@ -215,7 +215,7 @@
             "Green poster headline: 'Six files decide if AI can quote you.' Underneath: 'How many does yours have?' Swipe for all six.",
             "File 01, robots.txt, the front door: 'It decides who gets in.' A plain text file at your root; well-behaved crawlers read it before anything else. The three you never block: OAI-SearchBot, Claude-SearchBot and PerplexityBot.",
             "Files 03 and 04: 'One says what's here. One says who.' sitemap.xml: every page, with real dates; a date that never moves tells a crawler nothing has changed. JSON-LD: the entity graph, the lines that say who you are, and the only one of the six that needs a developer.",
-            "Green poster headline: 'Count yours. You need six.' Free, no email, no DM funnel. Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it. @hey.devmarde."
+            "Green poster headline: 'Count yours. You need six.' Free, no email, no DM funnel. Link: runaudit.devmarde.com. Zain Kazmi, builds it, then markets it. @hey.devmarde."
           ]
         },
         {
@@ -306,7 +306,7 @@
             "Green poster: 'We'll fix your site for free.' Ten spots. No catch; you don't owe us a review.",
             "What you get: your score before, the six files installed, your score after. Rs 0.",
             "The only catch: we publish the before and after. A review is asked after, and you can say no.",
-            "Green poster: 'Drop your URL. First ten.' runaudit.devmarde.com, by Ali Mehdi."
+            "Green poster: 'Drop your URL. First ten.' runaudit.devmarde.com, by Zain Kazmi."
           ]
         },
         {
@@ -324,7 +324,7 @@
             "Green poster headline: 'We'll fix your site for free.' Sticker: 'Free. Ten of you.' Underneath: 'No catch. You don't owe us a review.'",
             "What you get: 'Before. The fix. After.' Your score before, out of 100, on the same rubric we use for everyone. The six files written and installed: robots.txt, llms.txt, sitemap, JSON-LD, an FAQ in real HTML, feed.xml. Your score after. Rs 0: four hours of our work, nothing to pay now or later.",
             "The only catch: 'We publish the numbers.' Before and after on our page, named or anonymised, your call in writing before we start. We'll ask for an honest review on Google afterwards; you can say no and it stays free either way. No upsell, no retainer, no email list.",
-            "Green poster headline: 'Drop your URL. First ten.' Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it. @hey.devmarde."
+            "Green poster headline: 'Drop your URL. First ten.' Link: runaudit.devmarde.com. Zain Kazmi, builds it, then markets it. @hey.devmarde."
           ]
         },
         {
@@ -342,7 +342,7 @@
             "Green poster: 'We'll fix your site for free.' Ten spots. No catch; you don't owe us a review.",
             "What you get: your score before, the six files installed, your score after. Rs 0.",
             "The only catch: we publish the before and after. A review is asked after, and you can say no.",
-            "Green poster: 'Drop your URL. First ten.' runaudit.devmarde.com, by Ali Mehdi."
+            "Green poster: 'Drop your URL. First ten.' runaudit.devmarde.com, by Zain Kazmi."
           ]
         }
       ]
@@ -450,7 +450,7 @@
             "Blue poster headline: '800 schema types. Eight matter.' Underneath: 'The eight types an AI reads before it decides who you are.' Save this one.",
             "Who you are: 'Two types say you exist.' 01 Organization, one per site: the entity every other type points back to; your name, your logo, one place a machine can read. 02 Person, named humans: sameAs links out, so the name resolves to someone real.",
             "Where things sit: 'Give the page an address.' 05 BreadcrumbList, the path in: where the page sits among the rest, and the route a crawler takes to reach it. 06 WebPage, one per page: what the page is, under an @id that stays put while the page keeps changing.",
-            "Blue poster headline: 'The other 792 are noise.' Start with Organization and FAQPage; the rest can wait a week. Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it."
+            "Blue poster headline: 'The other 792 are noise.' Start with Organization and FAQPage; the rest can wait a week. Link: runaudit.devmarde.com. Zain Kazmi, builds it, then markets it."
           ]
         },
         {
@@ -605,7 +605,7 @@
             "Green poster headline: 'Sixty to a hundred. One afternoon.' Six steps, in order, with the clock running. Four hours if you've never done it.",
             "Step 01, 0:00 to 0:10, 10 minutes: robots.txt. 'Unblock the three that can quote you': OAI-SearchBot, Claude-SearchBot and PerplexityBot. Block one and it cannot read a word of you. The best ten minutes on the list: every later step is work a blocked crawler would never see. Go and read yoursite.com/robots.txt.",
             "Step 03, 0:50 to 2:20, 90 minutes: JSON-LD, 'The graph that says who you are.' Organization, Person and WebPage, one stable @id each, linked so you read as a single entity instead of unrelated pages. Needs a developer: the only step that does, because someone has to edit your templates. The longest step of the afternoon.",
-            "Green poster headline: 'Done by four. Re-run it.' No redesign, no new copy: six files and one afternoon. Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it."
+            "Green poster headline: 'Done by four. Re-run it.' No redesign, no new copy: six files and one afternoon. Link: runaudit.devmarde.com. Zain Kazmi, builds it, then markets it."
           ]
         },
         {
@@ -718,7 +718,7 @@
             "Blue poster headline: 'Three bugs that fail your site twice.' Sticker: 'I had all three.' Each one fails an automated score and a real person; the same fix works for both.",
             "Bug 01, aria-hidden on a focusable parent: 'Hidden from one user. Handed to the next.' The bug: aria-hidden on a container that still holds a link or a button. Why it fails twice: the audit flags it and the person hits it; Tab lands on a control the screen reader was told does not exist, and nothing is announced.",
             "Bug 03, grey text contrast: 3.6:1, circled, against a floor of 4.5:1 for normal-size text. The bug: muted grey text in dark mode. Why it fails twice: it scores badly and reads badly; it looks refined in the design file and disappears on a phone outdoors. One darker grey fixes both.",
-            "Blue poster headline: 'Go and check your own.' Link: pagespeed.web.dev. Ali Mehdi, builds it, then markets it."
+            "Blue poster headline: 'Go and check your own.' Link: pagespeed.web.dev. Zain Kazmi, builds it, then markets it."
           ]
         },
         {
@@ -848,7 +848,7 @@
             "Blue poster headline: 'Google grades you on three letters.' LCP, INP, CLS: what each one means, what breaks it, and what counts as good.",
             "LCP, Largest Contentful Paint, good under 2.5 seconds: how long until the biggest thing appears. What breaks it: an unoptimised hero image, shipped at full size and loaded last. The fix: compress it, size it, load it first.",
             "CLS, Cumulative Layout Shift, good under 0.1: how much the page jumps while you read. What breaks it: a web font swapping in late, or an image with no width and height. The fix: reserve the space before it arrives.",
-            "Blue poster headline: 'Check yours. It takes thirty seconds.' Link: pagespeed.web.dev. Ali Mehdi, builds it, then markets it."
+            "Blue poster headline: 'Check yours. It takes thirty seconds.' Link: pagespeed.web.dev. Zain Kazmi, builds it, then markets it."
           ]
         },
         {
@@ -1003,7 +1003,7 @@
             "Green poster headline: 'Three agencies. One broken site.' Three invoices. Nobody is wrong; everybody optimises their own third.",
             "Agency one, the dev shop: 'A fast site that says nothing.' Under a second to paint, with clean HTML and a real build step; they did exactly the job you hired them for. But not one line of schema: nothing says who you are, what you sell or who stands behind it. Speed was the brief, and speed was delivered.",
             "Agency three, the redesign: 'Beautiful. And it broke the other two.' It finally looks like you. But it is slower, with new fonts, bigger images and nobody re-running the test, and half the markup went with it when the templates changed. Three briefs, three wins, one site.",
-            "Green poster headline: 'One team, all three. That's the whole pitch.' Link: runaudit.devmarde.com. Ali Mehdi, builds it, then markets it."
+            "Green poster headline: 'One team, all three. That's the whole pitch.' Link: runaudit.devmarde.com. Zain Kazmi, builds it, then markets it."
           ]
         },
         {
