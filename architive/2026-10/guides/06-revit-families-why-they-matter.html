@@ -1,0 +1,103 @@
+<p>Revit families are the building blocks of every Revit model: each door, window, light fixture, piece of furniture, tag and title block is a family. They matter because the quality of your families decides how fast your model runs, whether your schedules are right, and how many hours your team loses fixing the same problems on every project. A small set of well-built families saves time on every job. A folder of random downloads quietly costs it. Here is what families are, what separates good ones from bad ones, and when it is worth building your own.</p>
+
+<h2>What is a Revit family?</h2>
+<p>A family is a group of elements that share the same parameters and graphics. A "single flush door" family might contain several types, such as 30, 32 and 36 inch widths, that all behave the same way. Autodesk's own <a href="https://help.autodesk.com/cloudhelp/2023/ENU/Revit-GetStarted/files/GUID-7AEC5D66-C2E0-40E2-9504-3CC13781B87A.htm" target="_blank" rel="noopener">Revit Get Started guide</a> puts it simply: everything you place in Revit is a family, and nothing can be created without one.</p>
+<p>Each family has two kinds of settings:</p>
+<ul>
+<li><strong>Type properties</strong> apply to every copy of that type. Change the width of the 36 inch door type and every 36 inch door in the model changes.</li>
+<li><strong>Instance properties</strong> apply to one placed element only, such as the sill height of a single window.</li>
+</ul>
+<p>Getting this split right is half of what makes a family pleasant to use.</p>
+
+<h2>The three kinds of family</h2>
+<p>Autodesk's help on <a href="https://help.autodesk.com/cloudhelp/2016/ENU/Revit-Model/files/GUID-403FFEAE-BFF6-464D-BAC2-85BF3DAB3BA2.htm" target="_blank" rel="noopener">the different kinds of families</a> describes three:</p>
+<table>
+<thead><tr><th>Kind</th><th>Examples</th><th>Where it lives</th><th>When to use it</th></tr></thead>
+<tbody>
+<tr><td>System families</td><td>Walls, floors, roofs, ducts, pipes, levels, grids</td><td>Built into Revit and the project</td><td>Always; you edit their types, not their files</td></tr>
+<tr><td>Loadable families</td><td>Doors, windows, casework, fixtures, furniture, tags, title blocks</td><td>Separate RFA files loaded into projects</td><td>Most custom content you build or buy</td></tr>
+<tr><td>In-place families</td><td>A one-off feature wall, an unusual canopy</td><td>Inside one project only</td><td>Unique geometry you will not reuse</td></tr>
+</tbody>
+</table>
+<p>Loadable families are the ones firms build, buy and collect. They are also where most problems start.</p>
+
+<h2>Why families matter more than people expect</h2>
+<ul>
+<li><strong>Speed.</strong> A model is only as light as the content inside it. Over-detailed families, or families with imported CAD inside them, make views slow to open and syncs slow to finish.</li>
+<li><strong>Correct schedules.</strong> Door, window and equipment schedules read data from families. If a family is in the wrong category, or its parameters are missing or misnamed, the schedule is wrong.</li>
+<li><strong>Consistent drawings.</strong> Good families show the right amount of detail at each scale. A door that draws every hinge screw at 1/8" scale looks messy and prints badly.</li>
+<li><strong>Less rework.</strong> A family fixed once in the library stays fixed. A broken family copied into every project is fixed again and again.</li>
+<li><strong>Owner and client standards.</strong> Some public clients set rules for family content. The New York State Office of General Services <a href="https://ogs.ny.gov/system/files/documents/2025/01/ogs-bim-guidelines.pdf" target="_blank" rel="noopener">BIM Guidelines (January 2025)</a>, for instance, set a family naming convention, ask for elements to be modelled with loaded families, and tell teams to use as few in-place elements as they can.</li>
+</ul>
+
+<h2>What a good family looks like</h2>
+<h3>The right category and host</h3>
+<p>A light fixture should be a Lighting Fixture, not Generic Model. Category controls schedules, visibility, filters and tags. Hosting matters too: a wall-hosted door moves with its wall, while a face-based fixture can sit on walls, ceilings or sloping surfaces.</p>
+<h3>Sensible parameters</h3>
+<p>Expose the things people actually change, such as width, height, material and mounting height, and lock the rest. Too few parameters force people to build new families. Too many make a family confusing and fragile.</p>
+<h3>Detail that matches the scale</h3>
+<p>Use coarse, medium and fine detail levels so a family draws simply in a 1/8" plan and shows more in a 1/2" detail. Keep 3D geometry no heavier than the job needs.</p>
+<h3>Clean geometry, no imported CAD</h3>
+<p>The OGS guidelines say CAD imports inside Revit families should be limited because they slow model files. Draw the geometry natively instead, and purge unused materials, nested families and types before saving.</p>
+<h3>Clear naming</h3>
+<p>A naming rule people can follow beats a clever one. The OGS convention, for example, joins an originator code, a two-letter category code and a description with underscores and no spaces, so families sort by category in the project browser. Whatever you choose, write it down and apply it to every new family.</p>
+
+<h2>Downloaded content: helpful, but check it</h2>
+<p>Manufacturer and library families save time, but quality varies widely. Before a downloaded family enters your library, open it and check:</p>
+<ul>
+<li>Is it in the right category, and does it schedule correctly?</li>
+<li>How large is the file, and does it contain imported CAD or very dense geometry?</li>
+<li>Does it look right in plan at your usual scales, as well as in 3D?</li>
+<li>Do its parameter names match your schedules and tags?</li>
+<li>Does it carry odd materials, line styles or fill patterns that will spread through your project?</li>
+</ul>
+<p>Sometimes the quickest fix is to rebuild a clean generic version and add the manufacturer's data as parameters.</p>
+
+<h2>When to build custom families</h2>
+<p>Build your own when:</p>
+<ul>
+<li>You use the same element on most projects, such as your standard door, window or casework types</li>
+<li>The available content is too heavy, wrongly categorised or does not match your graphic standards</li>
+<li>A client or owner has specific naming or parameter requirements</li>
+<li>The project has bespoke items, such as custom joinery or a feature facade panel, that appear many times</li>
+<li>You are modelling an existing building from a point cloud and need families that match what is really there. Our guide to <a href="/blog/scan-to-bim-explained/">scan to BIM</a> covers that workflow.</li>
+</ul>
+<p>Use an in-place family only for genuinely one-off geometry. If you catch yourself copying an in-place element, it should have been a loadable family.</p>
+
+<h2>Keep a small library people actually use</h2>
+<p>The OGS guidelines recommend keeping project families in a single shared place, on a network drive or in the cloud, so the whole team uses the same versions. In practice that means:</p>
+<ul>
+<li>One shared folder, organised by category</li>
+<li>A short list of approved families, not every download anyone has ever made</li>
+<li>One person responsible for adding and updating content</li>
+<li>Families saved in the oldest Revit version your projects use, because a family saved in a newer version cannot be opened in an older one</li>
+</ul>
+
+<h2>How to brief someone to build families</h2>
+<p>If you hand family creation to a colleague or a partner, send:</p>
+<ol>
+<li>Manufacturer cut sheets or your own drawings, with dimensions</li>
+<li>The category, hosting type and Revit version</li>
+<li>The types and sizes you need, ideally in a simple table</li>
+<li>Which parameters should be type and which instance</li>
+<li>Your naming convention and shared parameter file, if you have one</li>
+<li>A sample of an existing family you like, so the style matches</li>
+</ol>
+
+<h2>How Architive helps with Revit families</h2>
+<p>Architive is a US company registered in Delaware with its own production studio. Through our <a href="/bim-revit-scan-to-bim/"><strong>BIM, Revit and scan to BIM service</strong></a> we build and clean up Revit families, set up libraries and model projects inside your template and to your standards. Every job starts with a written scope listing the families, types, review stages, revision rounds and dates. If we miss an agreed instruction, we fix it at no charge, and an NDA is available before you share anything. See our <a href="/collaborations/manuel-development-revit-support/">Revit support collaboration</a> for the kind of work we do.</p>
+<p>Want to test us? We offer a free consultation and a free start on one defined task, such as a handful of families from your cut sheets. <a href="/contact/">Tell us what you need</a> or read <a href="/how-it-works/">how it works</a>. Still weighing up Revit at all? Read <a href="/blog/cad-drafting-vs-bim/">CAD drafting vs BIM</a>.</p>
+
+<h2>Quick answers</h2>
+<h3>What is a family in Revit?</h3>
+<p>A family is a reusable element, such as a door, window, fixture or tag, with shared parameters and graphics. Everything placed in a Revit model belongs to a family.</p>
+<h3>What is the difference between system and loadable families?</h3>
+<p>System families, like walls, floors and roofs, are built into Revit and live inside the project. Loadable families, like doors and furniture, are separate RFA files you load into projects and can share between them.</p>
+<h3>When should I use an in-place family?</h3>
+<p>Only for unique geometry you will not reuse, such as a one-off sculptural element. Repeated items should be loadable families, and many owner standards ask you to keep in-place elements to a minimum.</p>
+<h3>Why is my Revit model slow?</h3>
+<p>Heavy content is a common cause: families with imported CAD, very detailed 3D geometry or unused nested content. Cleaning up or replacing a few problem families often helps noticeably.</p>
+<h3>Can CAD blocks be turned into Revit families?</h3>
+<p>They can be used as a reference, but it is better to redraw the geometry natively in the Family Editor than to import the CAD into the family, which adds weight and loses Revit behaviour.</p>
+<h3>Should I build my own families or download them?</h3>
+<p>Download for one-off items if the content passes a quick check. Build your own for elements you use on most projects, so they match your standards and schedules every time.</p>
