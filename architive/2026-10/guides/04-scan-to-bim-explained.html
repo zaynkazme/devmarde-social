@@ -1,0 +1,86 @@
+<p>Scan to BIM means laser scanning an existing building and turning the scan data, called a point cloud, into a Revit model you can design from. It replaces tape measures and old drawings with measured conditions. How accurate the model ends up depends less on the scanner than on what you specify before anyone arrives on site: the accuracy you need, which elements get modelled and how much detail each one carries. Here is how the process works, what to ask for, and the mistakes that cost the most time.</p>
+
+<h2>What scan to BIM actually produces</h2>
+<p>Two different things come out of a scan to BIM job, and it helps to keep them apart.</p>
+<ul>
+<li><strong>The point cloud.</strong> Millions of measured points, each with a position and usually a colour. It looks like a ghostly 3D photo of the building. It is very accurate, but it is not a model: a wall in a point cloud is just a dense patch of dots with no thickness, type or data.</li>
+<li><strong>The BIM model.</strong> Walls, floors, roofs, doors, windows, structure and, if you ask for it, services, all built as real Revit elements traced from the cloud. This is what you can cut sections from, schedule, and use as the base for new design work.</li>
+</ul>
+<p>Most firms want both: the model to work in, and the point cloud linked underneath so anyone can check a dimension against the real building.</p>
+
+<h2>Why not measure by hand?</h2>
+<p>For a small, square room, hand measuring is fine. It stops being fine when the building is large, irregular, historic or full of services. Walls that look parallel are not. Floors fall. Ceilings hide ducts that clash with your new design. A tape measure records the dimensions someone thought to take. A scan records everything the scanner can see, so the question you did not think to ask on site can still be answered back at the office.</p>
+<p>Speed matters too. Leica says its <a href="https://leica-geosystems.com/products/laser-scanners/scanners/leica-rtc360" target="_blank" rel="noopener">RTC360 scanner</a> records as many as 2 million points every second and captures a scan, with HDR imagery, in under two minutes. Even with dozens of setups, a site visit can capture far more than a tape measure ever could.</p>
+
+<h2>The workflow, step by step</h2>
+<ol>
+<li><strong>Agree the purpose.</strong> A model for a planning application, an interior fit-out and an MEP retrofit need very different things. Write down what the model is for before anything else.</li>
+<li><strong>Set accuracy and detail.</strong> Pick an accuracy level (LOA) and a level of development (LOD) for each kind of element. More on both below.</li>
+<li><strong>Scan and register.</strong> The surveyor scans from many positions, then joins the scans into one point cloud. This joining step, called registration, is where small errors can creep in.</li>
+<li><strong>Check the registration.</strong> Before modelling starts, the cloud should be checked against survey control or overlapping data, so errors are found now rather than in your design.</li>
+<li><strong>Model in Revit.</strong> The modelling team traces elements from the cloud using agreed families, templates and naming.</li>
+<li><strong>Check the model against the cloud.</strong> A deviation check shows where the model departs from the scan and by how much.</li>
+<li><strong>Deliver.</strong> Revit model, any agreed sheets, and the point cloud in a format your team can open.</li>
+</ol>
+
+<h2>How accurate is scan to BIM?</h2>
+<p>Modern scanners measure to a few millimetres. FARO's <a href="https://content.dicarlotech.com/hubfs/FARO/Premium/Brochure-FocusPremium-ENG-0925.pdf" target="_blank" rel="noopener">September 2025 Focus Premium brochure</a> lists 3D accuracy of 2 mm at 10 m and 3.5 mm at 25 m. But the scanner is only the start. Registration across dozens of setups, and choices made while modelling, decide what you actually receive.</p>
+<p>John M. Russo, principal author of the USIBD accuracy specification, makes this point in a <a href="https://lidarmag.com/2026/06/09/accuracy-isnt-a-setting/" target="_blank" rel="noopener">June 2026 LiDAR Magazine article</a>: a model can never be more accurate than the data behind it. He also notes that most accuracy disputes come from unclear expectations, not bad data. A dense, tidy cloud can still be consistently offset if the registration drifted.</p>
+<p>That is why the industry uses the USIBD Level of Accuracy (LOA) scale. Here are the bands as reproduced in a <a href="https://upu.int/UPU/media/upu/TPC_CAA/RFPs/2020/Annexe-1b-%e2%80%93-Building-Survey_Technical-Specifications_EN.pdf" target="_blank" rel="noopener">January 2025 building survey specification from the Universal Postal Union</a>, specified at a 95 percent confidence level:</p>
+<table>
+<thead><tr><th>Level</th><th>Upper range</th><th>Lower range</th><th>Typically good for</th></tr></thead>
+<tbody>
+<tr><td>LOA10</td><td>User defined</td><td>5 cm</td><td>Massing, early feasibility</td></tr>
+<tr><td>LOA20</td><td>5 cm</td><td>15 mm</td><td>General planning and space studies</td></tr>
+<tr><td>LOA30</td><td>15 mm</td><td>5 mm</td><td>Most renovation and fit-out design</td></tr>
+<tr><td>LOA40</td><td>5 mm</td><td>1 mm</td><td>Tight interfaces, prefabrication, critical levels</td></tr>
+<tr><td>LOA50</td><td>1 mm</td><td>0</td><td>Specialist and heritage work</td></tr>
+</tbody>
+</table>
+<p>The right-hand column is our rule of thumb, not part of the specification. USIBD released <a href="https://lidarnews.com/leveraging-the-usibd-level-of-accuracy-loa-v3-1-to-enhance-laser-scanning-project-specifications/" target="_blank" rel="noopener">version 3.1 of the LOA specification in January 2025</a>, so check the current guide if you are writing it into a contract.</p>
+<p>You do not need the same LOA everywhere. The UPU survey above asked for LOA40 on levels, a Revit 2024 model at LOD 350, and a reduced point cloud of no more than 300 MB alongside the full one. That is a good example of a brief that leaves little room for argument.</p>
+
+<h2>LOA and LOD are not the same thing</h2>
+<p>People mix these up constantly. LOA describes how close the measurements are to reality. LOD describes how much the model contains and how far it can be relied on. BIMForum's <a href="https://bimforum.org/event/2025-lod-specification-now-available" target="_blank" rel="noopener">2025 LOD Specification</a> defines LOD as the content, reliability and intent of a model at each stage.</p>
+<p>So you could have a wall modelled at a simple LOD, just the right thickness and height, placed very accurately. Or a richly detailed door family placed loosely. Specify both, element by element, and you get the model you meant.</p>
+
+<h2>What to put in your scan to BIM brief</h2>
+<ul>
+<li>What the model is for, and which areas and floors are included</li>
+<li>LOA for key elements (for example, LOA30 walls, LOA40 floor levels)</li>
+<li>LOD for each category: walls, floors, roofs, doors, windows, stairs, structure, MEP</li>
+<li>Whether above-ceiling services, furniture and site features are modelled</li>
+<li>Revit version, your template, naming rules and family standards</li>
+<li>Deliverables: RVT, any sheets, the point cloud format (RCP and RCS for Autodesk, or the open E57 format) and a deviation report</li>
+<li>Review stages: a first floor or sample area before the rest of the building is modelled</li>
+</ul>
+<p>If you only have PDFs of the existing building rather than a scan, a lighter route may do. Our <a href="/blog/pdf-to-dwg-conversion-guide/">PDF to DWG conversion guide</a> explains when that is enough, and our comparison of <a href="/blog/cad-drafting-vs-bim/">CAD drafting vs BIM</a> helps if you are unsure whether you need a model at all.</p>
+
+<h2>Mistakes that cost the most</h2>
+<ul>
+<li><strong>No stated purpose.</strong> The team models everything to a high level, the price climbs, and half of it is never used.</li>
+<li><strong>One accuracy for the whole building.</strong> Paying for LOA40 on every partition is waste. Paying for LOA20 on a slab you are connecting to is risk.</li>
+<li><strong>Skipping the registration check.</strong> A drifted cloud produces a neat model in the wrong place.</li>
+<li><strong>Forcing everything square.</strong> Straightening slightly crooked walls is normal and fine, as long as it stays within the agreed tolerance. Straightening them beyond it hides real problems.</li>
+<li><strong>Poor families.</strong> Heavy or badly built content makes the model slow from day one. See why <a href="/blog/revit-families-why-they-matter/">Revit families matter</a>.</li>
+<li><strong>Not checking a sample.</strong> Review one floor before the whole building is done.</li>
+</ul>
+
+
+<h2>How Architive helps with scan to BIM</h2>
+<p>Architive is a US company, registered in Delaware, with its own production studio. Through our <a href="/bim-revit-scan-to-bim/"><strong>BIM, Revit and scan to BIM service</strong></a> we model from your registered point clouds, your existing drawings or your surveyor's data, inside your Revit template and to your standards. Every job starts with a written scope listing the deliverables, LOA and LOD you need, review stages, revision rounds and dates. If we miss an agreed instruction, we fix it at no charge, and the studio keeps working while your US office is closed. You can see the kind of Revit work we do in our <a href="/collaborations/manuel-development-revit-support/">Revit support collaboration</a>.</p>
+<p>Not sure what accuracy to ask for? <a href="/contact/">Book a free consultation</a>, and we can start one defined area free so you can judge the model before committing. You can also read <a href="/how-it-works/">how it works</a>.</p>
+
+<h2>Quick answers</h2>
+<h3>What is scan to BIM?</h3>
+<p>It is the process of laser scanning an existing building and modelling it in Revit or another BIM tool from the resulting point cloud, so you design from measured conditions instead of old drawings.</p>
+<h3>How accurate is a scan to BIM model?</h3>
+<p>As accurate as you specify and the data allows. Scanners measure to a few millimetres, but the final model depends on registration and modelling. Specify an LOA band, such as LOA30 (5 to 15 mm), for each kind of element.</p>
+<h3>What is the difference between LOA and LOD?</h3>
+<p>LOA is how close the measurements are to the real building. LOD is how much detail and information the model elements carry. A good brief states both.</p>
+<h3>What files will I receive?</h3>
+<p>Usually a Revit model (RVT), the point cloud in RCP and RCS or E57 format, any agreed drawings, and ideally a deviation report comparing the model with the scan.</p>
+<h3>Do I need to model the MEP services?</h3>
+<p>Only if your project touches them. For a fit-out with new ceilings or a services upgrade, yes. For a facade or planning study, usually not. Leaving them out saves a lot of modelling time.</p>
+<h3>Can you model from a scan someone else captured?</h3>
+<p>Yes. Many firms hire a local surveyor to scan and a separate team to model. Share the registered point cloud, any control data and your template, and agree the LOA and LOD in writing.</p>
