@@ -1,0 +1,83 @@
+<p>You can turn a PDF into a DWG in two ways: import it with software, or redraw it in CAD. Importing is quick and works well on PDFs that were exported from CAD in the first place. Redrawing takes longer but gives you a clean, correctly scaled file with proper layers, and it is the only real option for scanned drawings. Which one you need depends on what kind of PDF you have and what you plan to do with the DWG.</p>
+<h2>First, find out what kind of PDF you have</h2>
+<p>Two very different files hide behind the same .pdf extension.</p>
+<ul>
+<li><strong>Vector PDF:</strong> plotted or exported from CAD or BIM software. It still holds lines, arcs and text as geometry, so software can pull real objects out of it.</li>
+<li><strong>Raster PDF:</strong> a scan or photo of a paper drawing. It is a picture made of pixels. There are no lines to extract, only dots that look like lines.</li>
+</ul>
+<p>A quick test: zoom in very close on a wall line. If it stays crisp at any zoom, it is vector. If it turns into a blurry, stepped edge, it is a scan. Many old sets are mixed, with a scanned survey or a few scanned sheets inside a CAD export, so check every sheet.</p>
+
+<h2>What AutoCAD's PDFIMPORT does well, and where it stops</h2>
+<p>AutoCAD and AutoCAD LT both include a PDFIMPORT command. For a good vector PDF it is often all you need to get started. According to Autodesk's <a href="https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-LT/files/GUID-F94D7059-5B4A-4396-97FE-765B1D037D56.htm" target="_blank" rel="noopener">2026 help page for the Import PDF dialog box</a>, you can choose to bring in vector geometry, solid fills, TrueType text and raster images, put objects on the PDF's own layers or on new object layers, join touching line and arc segments into polylines, and try to rebuild dashed linetypes from short collinear dashes. Autodesk itself calls that last step imperfect.</p>
+<p>The limits matter more than the features. Autodesk's <a href="https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-LT/files/GUID-1202CC8A-364F-4E93-8E86-6F476CD83C72.htm" target="_blank" rel="noopener">2026 overview of importing PDF files</a> lists what happens on import:</p>
+<ul>
+<li>Dimensions, leaders, tables and patterned hatches arrive as loose pieces, as if they had been exploded. A dimension is no longer a dimension, just lines and text.</li>
+<li>Text drawn in AutoCAD's SHX fonts comes in as geometry, not editable text. Only TrueType text survives as text.</li>
+<li>Markups are not imported.</li>
+<li>Scanned content comes in as a PNG image attached to the drawing. AutoCAD does not convert raster images to vectors.</li>
+<li>Precision drops. DWG stores coordinates in double precision, PDF only in single precision, so arc endpoints, tangent points and rotated lines get rounded. The loss is worse in PDFs saved at a low dpi.</li>
+</ul>
+<p>For the SHX text problem there is a separate tool. The <a href="https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-LT/files/GUID-A0F80ABD-0F1C-47FB-B7E3-E4C699DAEE83.htm" target="_blank" rel="noopener">PDFSHXTEXT command</a> compares the imported letter shapes against SHX fonts you pick and turns matches into mtext. Anything it misses still needs typing by hand.</p>
+
+<h2>Auto-convert or redraw?</h2>
+<table>
+<thead>
+<tr><th>Your situation</th><th>Best route</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Clean vector PDF, you only need a background to trace or reference</td><td>Import (PDFIMPORT) or attach as an underlay</td><td>Fast, and minor flaws do not matter for a backdrop</td></tr>
+<tr><td>Clean vector PDF, file will be edited and issued to others</td><td>Import, then clean up heavily, or redraw</td><td>Exploded dimensions, broken walls and PDF layers need fixing before others rely on it</td></tr>
+<tr><td>Scanned or photographed drawing</td><td>Redraw over the scaled image</td><td>There is no geometry to extract; raster-to-vector tools only guess at it</td></tr>
+<tr><td>Drawing will support permit, renovation or fabrication work</td><td>Redraw, and verify key dimensions on site</td><td>The source itself may be out of date or inaccurate</td></tr>
+</tbody>
+</table>
+<p>Raster-to-vector software exists, and it can help with simple linework. But Autodesk's own note is blunt: vectors made from a scan cannot match the precision of objects drawn directly in CAD. For anything that will be dimensioned, built from or stamped, tracing by a drafter who reads the drawing as a building, not as pixels, is usually quicker than fixing a bad auto-trace.</p>
+<p>Before either route, ask whoever made the drawings for the original DWG. A short email can save days.</p>
+
+<h2>Get the scale right before you draw anything</h2>
+<p>Scale is the most common mistake in PDF to CAD work. A sheet printed at 1/4" = 1'-0" does not come into AutoCAD at real size. Autodesk notes that the import treats imperial PDFs as measured in inches and metric ones in millimeters, so you get the sheet at paper size unless you set a scale factor. And if the sheet was ever printed with "fit to page", the scale on the title block is no longer true at all.</p>
+<ol>
+<li>Find a long, clearly labelled dimension, ideally an overall building length, not a short one.</li>
+<li>Use the SCALE command with the Reference option: pick the two ends of that line and type its real length.</li>
+<li>Check a second dimension running the other way. If both agree, carry on.</li>
+<li>If the second check fails, the scan is probably stretched in one direction. That is common with old copies and large-format scanners. Note it, and correct the image before tracing, or trace to the written dimensions rather than the picture.</li>
+</ol>
+<p>On scanned sets, written dimensions beat measured ones. If the drawing says 14'-6" and the scan measures 14'-4", draw 14'-6" and flag the difference.</p>
+
+<h2>What a clean DWG should include</h2>
+<ul>
+<li>Correct units and a sensible origin</li>
+<li>Layers named to your office standard</li>
+<li>Walls as continuous polylines, not hundreds of tiny segments</li>
+<li>Doors, windows and fixtures as blocks</li>
+<li>Real dimension objects and editable text in your styles</li>
+<li>Sheets in your title block, at the scale you will issue</li>
+</ul>
+<p>If the file will feed a BIM model later, say so up front. Our guide to <a href="/blog/cad-drafting-vs-bim/">CAD drafting vs BIM</a> explains when to stay in 2D and when to model.</p>
+
+<h2>Check the result before anyone relies on it</h2>
+<ol>
+<li>Overlay the new DWG on the original PDF and look for drift at the far corners.</li>
+<li>Spot-check four or five dimensions in both directions against the written figures.</li>
+<li>Look for duplicate lines, gaps at wall corners and stray objects.</li>
+<li>Run AUDIT and PURGE.</li>
+</ol>
+
+<h2>Know where conversion ends and surveying begins</h2>
+<p>A converted drawing is only as good as the drawing it came from. Old plans may show what was designed, not what was built. If the DWG will support a permit set, structural work or a tight fit-out, measure the key rooms on site. For larger or complex buildings, a laser scan is often faster and far more reliable; see <a href="/blog/scan-to-bim-explained/">scan to BIM explained</a> for how that works.</p>
+
+<h2>How Architive handles PDF to DWG work</h2>
+<p>Send us your PDFs or scans and we will tell you, before any work starts, which sheets can be imported and cleaned and which need redrawing. You get a written scope and quote that lists the drawings, review stages, revision rounds and delivery dates. We draw to your templates, title blocks and layer standards, check scale against written dimensions, and flag anything that does not add up. If we miss an agreed instruction, we fix it at no charge. We are a US company registered in Delaware with our own production studio, so work moves forward while your office is closed. See our <a href="/cad-drafting-services/">CAD drafting services</a>, including PDF to DWG conversion, or <a href="/contact/">send us a few sheets</a> for a free start on one defined task. Using Rayon? We also offer <a href="/rayon-cad-drafting-services/">Rayon drafting</a>.</p>
+<p>If the drawings are heading for a permit submission, our <a href="/blog/permit-drawing-set-checklist/">permit drawing set checklist</a> covers the sheets reviewers look for.</p>
+
+<h2>Quick answers</h2>
+<h3>Can AutoCAD convert a PDF to DWG?</h3>
+<p>Yes. AutoCAD and AutoCAD LT have a PDFIMPORT command that turns vector PDF content into AutoCAD objects. It does not turn scanned images into lines; those come in as an attached picture.</p>
+<h3>Why does my imported PDF have the wrong scale?</h3>
+<p>The import reads the sheet in paper units, not real building units, and prints scaled to fit lose their stated scale. Use SCALE with the Reference option on a long known dimension, then check a second one.</p>
+<h3>Can I convert a scanned PDF to CAD?</h3>
+<p>Not accurately by software alone. Raster-to-vector tools guess at the lines. For drawings that people will build from or edit, redraw over the scaled scan.</p>
+<h3>Why is the text in my imported PDF not editable?</h3>
+<p>Text made with SHX fonts is stored in the PDF as shapes. Run PDFSHXTEXT to convert what it can recognise, and retype the rest.</p>
+<h3>How accurate is a PDF to DWG conversion?</h3>
+<p>No more accurate than the source. Vector imports lose some precision, scans can be stretched, and old drawings may not match the building. Verify key dimensions on site when it matters.</p>
